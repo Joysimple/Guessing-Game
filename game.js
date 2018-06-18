@@ -9,7 +9,7 @@ for (i = 1; i <= count; i++) {
     break;
      }
     else {
-         window.alert("Sorry, try again, you have " + (5 - i) + " attempt");
+         window.alert("Sorry, try again, you have " + (count - i) + " attempt");
      }
 }
 if (won == false) {
