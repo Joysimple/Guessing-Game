@@ -1,3 +1,8 @@
 var correctNumber = 12;
-var guessingNumber = 0;
-window.prompt("Guess number");
+var guessingNumber = window.prompt("Guess number");
+if guessingNumber === correctNumber {
+    document.write("Your guess is correct!");
+}
+else {
+    window.alert("Sorry, try again")
+}
