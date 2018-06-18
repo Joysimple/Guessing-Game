@@ -1,6 +1,7 @@
 var correctNumber = 12;
 var won = false;
 var count = 5;
+var guessingArray = [];
 for (i = 1; i <= count; i++) {
     var guessingNumber = window.prompt("Guess number");
     if (guessingNumber == correctNumber) {
@@ -9,6 +10,7 @@ for (i = 1; i <= count; i++) {
         break;
      }
     else {
+         guessingArray = guessingArray[guessingNumber];
          window.alert("Sorry, try again, you have " + (count - i) + " attempt");
      }
 }
