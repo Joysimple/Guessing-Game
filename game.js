@@ -12,18 +12,12 @@ for (i = 1; i <= count; i++) {
      }
     else {
          guessingArray[i] = guessingNumber;
+         window.alert("Sorry, try again, you have guessed: " + guessingArray.toString() + ", you have " + (count - i) + " attempt");
          
-         for (j = 0; j <= fLen; j++){
-             if (guessingArray[j] == guessingNumber) {
-                 window.alert("You already use this number ");
-             }
-             else {
-                window.alert("Sorry, try again, you have guessed: " + guessingArray.toString() + ", you have " + (count - i) + " attempt");
 
              }
          }
-     }
-}
+     
 if (won == false) {
     window.alert("<p>Game over ;(</p>");  
 }
