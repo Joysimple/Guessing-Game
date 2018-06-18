@@ -1,6 +1,6 @@
 var correctNumber = 12;
-won = false;
-count = 5;
+var won = false;
+var count = 5;
 for (i = 1; i <= count; i++) {
     var guessingNumber = window.prompt("Guess number");
     if (guessingNumber === correctNumber) {
