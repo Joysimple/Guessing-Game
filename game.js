@@ -27,7 +27,7 @@ while(i <= count) {
         }
 
     }
-i++;
+    i++;
 }
      
 if (won == false) {
