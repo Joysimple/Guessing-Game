@@ -6,7 +6,7 @@ var guessingArray = [];
 function isPreviousGuess(guessingNumber){
     var duplicate =  guessingArray.indexOf(guessingNumber);
     return duplicate;
-    }
+}
 
  while(i <= count) {
      
