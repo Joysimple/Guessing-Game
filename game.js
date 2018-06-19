@@ -1,4 +1,4 @@
-var correctNumber = 12;
+var correctNumber = Math.floor(Math.random() * 100) + 1;
 var won = false;
 var count = 5;
 var i = 1;
