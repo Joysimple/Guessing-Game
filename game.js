@@ -15,10 +15,11 @@ for (i = 1; i <= count; i++) {
         break;
      }
     else {
-         isPreviousGuess(guessingNumber); 
+         var a = isPreviousGuess(guessingNumber); 
+         while (a == -1){
          guessingArray[i] = guessingNumber;
          window.alert("Sorry, try again, you have guessed: " + guessingArray.toString() + ", you have " + (count - i) + " attempt");
-         
+         }
 
              }
          }
