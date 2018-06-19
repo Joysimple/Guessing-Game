@@ -15,6 +15,7 @@ for (i = 1; i <= count; i++) {
         break;
      }
     else {
+         isPreviousGuess(guessingNumber); 
          guessingArray[i] = guessingNumber;
          window.alert("Sorry, try again, you have guessed: " + guessingArray.toString() + ", you have " + (count - i) + " attempt");
          
