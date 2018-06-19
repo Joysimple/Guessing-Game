@@ -2,6 +2,11 @@ var correctNumber = 12;
 var won = false;
 var count = 5;
 var guessingArray = [];
+function isPreviousGuess(){
+    if (guessingArray[i] = guessingNumber){
+        window.alert("This number is already guessed") 
+    }
+}
 for (i = 1; i <= count; i++) {
     var guessingNumber = window.prompt("Guess number");
     if (guessingNumber == correctNumber) {
