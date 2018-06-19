@@ -2,7 +2,7 @@ var correctNumber = 12;
 var won = false;
 var count = 5;
 var guessingArray = [];
-function isPreviousGuess(){
+function isPreviousGuess(guessingNumber){
     var duplicate =  guessingArray.indexOf(guessingNumber);
     return duplicate;
     }
