@@ -10,6 +10,7 @@ function isPreviousGuess(guessingNumber){
 
 while(i <= count) {
     var guessingNumber = window.prompt("Guess number");
+    if (isNaN(guessingNumber)) { continue; } 
     if (guessingNumber == correctNumber) {
         document.write("<p>Your guess is correct!</p>");
         won = true;
