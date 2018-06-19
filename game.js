@@ -6,7 +6,7 @@ function isPreviousGuess(guessingNumber){
     var duplicate =  guessingArray.indexOf(guessingNumber);
     return duplicate;
     }
-}
+
 for (i = 1; i <= count; i++) {
     var guessingNumber = window.prompt("Guess number");
     if (guessingNumber == correctNumber) {
@@ -16,8 +16,8 @@ for (i = 1; i <= count; i++) {
      }
     else {
          var a = isPreviousGuess(guessingNumber); 
-         while (a == -1){
          guessingArray[i] = guessingNumber;
+         while (a == -1){
          window.alert("Sorry, try again, you have guessed: " + guessingArray.toString() + ", you have " + (count - i) + " attempt");
          }
 
