@@ -31,5 +31,5 @@ while(i <= count) {
 }
      
 if (won == false) {
-    window.alert("<p>Game over ;(</p>");  
+    window.alert("Game over. The correct number was: " + correctNumber);  
 }
