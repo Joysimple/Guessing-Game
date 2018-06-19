@@ -9,7 +9,7 @@ function isPreviousGuess(guessingNumber){
     }
 
  while(i <= count) {
-     i++;
+     
     var guessingNumber = window.prompt("Guess number");
     if (guessingNumber == correctNumber) {
         document.write("<p>Your guess is correct!</p>");
@@ -29,6 +29,7 @@ function isPreviousGuess(guessingNumber){
          }
 
              }
+             i++;
          }
      
 if (won == false) {
