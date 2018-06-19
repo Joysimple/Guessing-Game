@@ -3,8 +3,8 @@ var won = false;
 var count = 5;
 var guessingArray = [];
 function isPreviousGuess(){
-    if (guessingArray[i] = guessingNumber){
-        window.alert("This number is already guessed") 
+    var duplicate =  guessingArray.indexOf(guessingNumber);
+    return duplicate;
     }
 }
 for (i = 1; i <= count; i++) {
