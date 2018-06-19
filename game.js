@@ -19,7 +19,7 @@ function isPreviousGuess(guessingNumber){
     else {
          var a = isPreviousGuess(guessingNumber); 
          if (a == -1){
-             guessingArray[] = guessingNumber;
+             guessingArray[i] = guessingNumber;
              window.alert("Sorry, try again, you have guessed: " + guessingArray.toString() + ", you have " + (count - i) + " attempt");
          
          }
